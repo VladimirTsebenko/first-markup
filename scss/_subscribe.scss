@@ -1,0 +1,26 @@
+@import "variables";
+
+.subscribe {
+  background: url(../images/photo-1516633630673-67bbad747022.jpg) no-repeat center center;
+  box-shadow: inset 0 0 0 1000px rgba(100,140,255,.8);
+  background-size: cover;
+  padding: 60px 0;
+  color: white;
+
+  .subscribe-container {
+    width: 55.55%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .subscribe-title {
+    font-size: 42px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .subscribe-description {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}

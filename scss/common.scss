@@ -1,0 +1,49 @@
+@import "variables";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.text--light {
+  color: $text-color-light-blue;
+}
+
+.link {
+  padding: 10px 25px;
+  border: 2px solid $text-color-light-blue;
+  border-radius: 20px;
+  color: $text-color-light-blue;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.link--light {
+  padding: 10px 25px;
+  border: 2px solid $button-border-color;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+@import "header";
+@import "screen";
+@import "features";
+@import "articles";
+@import "subscribe";
+@import "footer";
+
